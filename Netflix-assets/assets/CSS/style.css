@@ -1,0 +1,37 @@
+/* styles.css */
+html,body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: white;
+}
+
+.navbar {
+    margin-bottom: 20px;
+}
+#kids{margin-left: 20px;
+    margin-right: 20px;
+}
+#kidsIcon{margin-left: 20px;
+    margin-right: 5px;
+}
+.dropdown{margin-right: 13px;}
+.carousel-item {
+    transition: transform 0.5s ease;
+}
+.btn {background-color: #000000; /* Sfondo scuro */
+    border: 1px solid white;}
+.dropdown-menu {
+    background-color: #000000; /* Sfondo scuro */
+    border: 1px solid white; /* Bordo bianco */
+}
+.dropdown-toggle::after {
+    font-family: "Font Awesome 5 Free"; /* Font Awesome */
+    font-weight: 900; /* Peso del font per l'icona */
+    margin-left: 5px; /* Margine tra il testo e l'icona */
+}
+
+.img-fluid {
+    border-radius: 8px;}
+    .py-4 { padding:5%;
+   background-color: black;}
+#copy{padding:5%;}
